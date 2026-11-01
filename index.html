@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mate24x7 | Agua caliente ilimitada para tu evento</title>
+<meta name="description" content="Servicio de agua caliente para eventos, remates, exposiciones rurales y ferias. Alquiler de dispenser de agua caliente en Saladillo y toda la provincia de Buenos Aires. Nadie se queda sin mate.">
+<meta name="keywords" content="agua caliente para eventos, alquiler dispenser agua caliente, dispenser de agua caliente para eventos, agua caliente para remates, agua caliente para rurales, alquiler de dispenser en Saladillo, servicio de agua caliente para eventos">
+<meta property="og:title" content="Mate24x7 | Agua caliente ilimitada para tu evento">
+<meta property="og:description" content="Nos ocupamos de todo para que en tu evento nadie se quede sin mate.">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/png" href="assets/img/mascot_orange.png">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<!-- Bootstrap 5 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+<!-- AOS -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- Swiper -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+<!-- Custom styles -->
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ============ LIVE BADGE (signature element) ============ -->
+<div class="live-badge" id="liveBadge">
+  <span class="live-dot"></span>
+  <span class="live-text" id="liveText">Disponible 24x7</span>
+</div>
+
+<!-- ============ NAVBAR ============ -->
+<nav class="navbar navbar-expand-lg fixed-top mate-nav" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="#hero">
+      <img src="assets/img/logo.png" alt="Mate24x7" height="28">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+      <ul class="navbar-nav align-items-lg-center gap-lg-4">
+        <li class="nav-item"><a class="nav-link" href="#por-que">Por qué elegirnos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#incluye">Qué incluye</a></li>
+        <li class="nav-item"><a class="nav-link" href="#disponibilidad">Disponibilidad</a></li>
+        <li class="nav-item"><a class="nav-link" href="#faq">Preguntas</a></li>
+        <li class="nav-item mt-3 mt-lg-0">
+          <a href="https://wa.me/542344438234" target="_blank" class="btn btn-mate-primary btn-sm px-3">
+            <i class="bi bi-whatsapp me-1"></i> Hablar por WhatsApp
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header id="hero" class="hero-section">
+  <div class="hero-glow"></div>
+  <div class="hero-grid-lines"></div>
+  <div class="container hero-inner">
+    <div class="row align-items-center gy-5">
+      <div class="col-lg-6">
+        <p class="eyebrow" data-aos="fade-up">
+          <i class="bi bi-droplet-half"></i> MATE24X7 · SERVICIO PARA EVENTOS
+        </p>
+        <h1 class="hero-title" data-aos="fade-up" data-aos-delay="80">
+          Agua caliente<br><span class="text-gradient-green">ilimitada</span> para<br>tu evento.
+        </h1>
+        <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="160">
+          Nos ocupamos de todo para que en tu evento nadie se quede sin mate.
+        </p>
+        <div class="hero-cta d-flex flex-wrap gap-3" data-aos="fade-up" data-aos-delay="240">
+          <a href="https://wa.me/542344438234?text=Hola!%20Quiero%20solicitar%20un%20presupuesto%20para%20mi%20evento" target="_blank" class="btn btn-mate-primary btn-lg">
+            Solicitar presupuesto
+          </a>
+          <a href="#reservar" class="btn btn-mate-outline btn-lg">
+            Reservar fecha
+          </a>
+        </div>
+        <div class="hero-trust d-flex flex-wrap gap-4 mt-5" data-aos="fade-up" data-aos-delay="320">
+          <div><strong>+200L</strong><span>disponibles</span></div>
+          <div><strong>100%</strong><span>instalación incluida</span></div>
+          <div><strong>Saladillo</strong><span>y alrededores</span></div>
+        </div>
+      </div>
+      <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+        <!-- TODO: reemplazar por foto real de la máquina Mate24x7 en un evento -->
+        <div class="hero-visual">
+          <div class="hero-visual-glow"></div>
+          <img src="assets/img/mascot_orange.png" alt="Mate24x7 - máquina de agua caliente para eventos" class="hero-mascot floaty">
+          <div class="hero-chip chip-top">
+            <i class="bi bi-wifi"></i> Wifi Starlink propio
+          </div>
+          <div class="hero-chip chip-bottom">
+            <i class="bi bi-clock-history"></i> Atención durante todo el evento
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="#por-que" class="scroll-cue" aria-label="Bajar">
+    <i class="bi bi-chevron-down"></i>
+  </a>
+</header>
+
+<!-- ============ POR QUÉ ELEGIRNOS ============ -->
+<section id="por-que" class="section-py bg-cream">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up">
+      <p class="eyebrow"><i class="bi bi-stars"></i> Por qué elegir Mate24x7</p>
+      <h2 class="section-title">Tranquilidad de principio a fin.</h2>
+      <p class="section-lead">No alquilás una máquina. Contratás la garantía de que nadie en tu evento se va a quedar sin agua caliente.</p>
+    </div>
+
+    <div class="row g-4 mt-3">
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+        <div class="why-card">
+          <i class="bi bi-infinity"></i>
+          <h3>Nunca falta agua caliente</h3>
+          <p>Capacidad pensada para eventos grandes, con reposición constante durante todas las horas que dure tu evento.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="80">
+        <div class="why-card">
+          <i class="bi bi-clipboard-check"></i>
+          <h3>Nos ocupamos de todo</h3>
+          <p>Vos organizá tu evento. Nosotros coordinamos, transportamos, instalamos y operamos la máquina de punta a punta.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="160">
+        <div class="why-card">
+          <i class="bi bi-tools"></i>
+          <h3>Instalación incluida</h3>
+          <p>Llegamos antes de que empiece todo, configuramos y calibramos la máquina para que funcione perfecto desde el primer mate.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+        <div class="why-card">
+          <i class="bi bi-person-check"></i>
+          <h3>Atención durante todo el evento</h3>
+          <p>Un operador presente para cambiar bidones y despachar al público, sin que nadie tenga que ocuparse de nada.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="80">
+        <div class="why-card">
+          <i class="bi bi-shield-check"></i>
+          <h3>Servicio confiable</h3>
+          <p>Equipos calibrados y con respaldo, pensados para no fallar justo cuando más se necesitan.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="160">
+        <div class="why-card">
+          <i class="bi bi-award"></i>
+          <h3>Experiencia profesional</h3>
+          <p>Trabajamos con remates, rurales, municipios y empresas que necesitan que todo salga bien, sin sorpresas.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ IDEAL PARA ============ -->
+<section id="ideal-para" class="section-py bg-light-soft">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up">
+      <p class="eyebrow"><i class="bi bi-geo-alt"></i> Ideal para</p>
+      <h2 class="section-title">Cualquier evento donde el agua caliente no puede faltar.</h2>
+    </div>
+    <div class="row g-3 mt-3">
+      <div class="col-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="0">
+        <div class="ideal-tile"><i class="bi bi-hammer"></i><span>Remates</span></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="40">
+        <div class="ideal-tile"><i class="bi bi-tree"></i><span>Exposiciones rurales</span></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="80">
+        <div class="ideal-tile"><i class="bi bi-flag"></i><span>Fiestas populares</span></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="120">
+        <div class="ideal-tile"><i class="bi bi-trophy"></i><span>Carreras y torneos</span></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="0">
+        <div class="ideal-tile"><i class="bi bi-briefcase"></i><span>Eventos empresariales</span></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="40">
+        <div class="ideal-tile"><i class="bi bi-basket"></i><span>Ferias y exposiciones</span></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="80">
+        <div class="ideal-tile"><i class="bi bi-bank"></i><span>Eventos municipales</span></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="120">
+        <div class="ideal-tile"><i class="bi bi-people"></i><span>Clubes y cooperativas</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CÓMO FUNCIONA ============ -->
+<section id="como-funciona" class="section-py bg-orange-bold">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up">
+      <p class="eyebrow eyebrow-light"><i class="bi bi-signpost-split"></i> Cómo funciona</p>
+      <h2 class="section-title text-white">De la consulta al primer mate servido.</h2>
+    </div>
+
+    <div class="timeline mt-5">
+      <div class="timeline-line"></div>
+      <div class="row g-4">
+        <div class="col-md-3" data-aos="fade-up" data-aos-delay="0">
+          <div class="timeline-step">
+            <div class="timeline-dot">1</div>
+            <h4>Coordinamos</h4>
+            <p>Hablamos por WhatsApp, definimos fecha, lugar y cantidad de asistentes.</p>
+          </div>
+        </div>
+        <div class="col-md-3" data-aos="fade-up" data-aos-delay="120">
+          <div class="timeline-step">
+            <div class="timeline-dot">2</div>
+            <h4>Instalamos</h4>
+            <p>Llevamos la máquina y la ubicamos en el lugar exacto que necesites dentro del evento.</p>
+          </div>
+        </div>
+        <div class="col-md-3" data-aos="fade-up" data-aos-delay="240">
+          <div class="timeline-step">
+            <div class="timeline-dot">3</div>
+            <h4>Configuramos</h4>
+            <p>Calibramos la máquina y activamos nuestra conexión Starlink propia para el operador.</p>
+          </div>
+        </div>
+        <div class="col-md-3" data-aos="fade-up" data-aos-delay="360">
+          <div class="timeline-step">
+            <div class="timeline-dot">4</div>
+            <h4>Atendemos el evento</h4>
+            <p>Un operador se queda todo el tiempo necesario, cambiando bidones y despachando al público.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ QUÉ INCLUYE ============ -->
+<section id="incluye" class="section-py bg-light-soft">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up">
+      <p class="eyebrow"><i class="bi bi-box-seam"></i> Qué incluye</p>
+      <h2 class="section-title">Todo resuelto. Vos solo disfrutá el evento.</h2>
+    </div>
+
+    <div class="row g-4 mt-3">
+      <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="0">
+        <div class="include-card"><i class="bi bi-droplet-fill"></i><h5>200 litros de agua</h5><p>Purificada y lista para servir.</p></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="40">
+        <div class="include-card"><i class="bi bi-box2-fill"></i><h5>10 bidones incluidos</h5><p>Reposición asegurada.</p></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="80">
+        <div class="include-card"><i class="bi bi-router-fill"></i><h5>Starlink propio</h5><p>Conectividad sin depender del lugar.</p></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="120">
+        <div class="include-card"><i class="bi bi-truck"></i><h5>Transporte</h5><p>Traslado incluido en Saladillo.</p></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="0">
+        <div class="include-card"><i class="bi bi-tools"></i><h5>Instalación</h5><p>Montaje completo en el lugar.</p></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="40">
+        <div class="include-card"><i class="bi bi-sliders"></i><h5>Calibración</h5><p>Puesta a punto para rendir al máximo.</p></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="80">
+        <div class="include-card"><i class="bi bi-arrow-repeat"></i><h5>Cambio de bidones</h5><p>Reposición constante sin cortes.</p></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="120">
+        <div class="include-card"><i class="bi bi-person-badge"></i><h5>Operador en el evento</h5><p>Presente durante todo el horario.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALERÍA ============ -->
+<section id="galeria" class="section-py bg-cream">
+  <div class="container-fluid px-0">
+    <div class="container">
+      <div class="section-head" data-aos="fade-up">
+        <p class="eyebrow"><i class="bi bi-images"></i> Galería</p>
+        <h2 class="section-title">La máquina en acción.</h2>
+      </div>
+    </div>
+
+    <!-- Primera foto real de Mate24x7 (Fiestas Patrias Saladillo 2026). TODO: reemplazar el resto de las imágenes del swiper por fotos y videos reales de Mate24x7 en eventos -->
+    <div class="swiper gallery-swiper mt-4" data-aos="fade-up">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide gallery-real">
+          <img src="assets/img/gallery_fiestas_patrias_2026.jpg" alt="Máquina Mate24x7 en Fiestas Patrias de Saladillo, edición 2026">
+          <span class="gallery-caption">Fiestas Patrias Saladillo · Edición 2026</span>
+        </div>
+        <!-- Video real de Mate24x7 funcionando en el remate Gui, Saladillo (Sept 2026). Archivo: assets/video/maquina_en_remate_2026.mp4 -->
+        <div class="swiper-slide gallery-real gallery-video">
+          <video src="assets/video/maquina_en_remate_2026.mp4" poster="assets/video/maquina_en_remate_2026_poster.jpg"
+                 autoplay muted loop playsinline preload="metadata"
+                 aria-label="Video de la máquina Mate24x7 sirviendo agua caliente en el remate Gui, Saladillo, Buenos Aires"></video>
+          <button type="button" class="video-sound" aria-label="Activar sonido" title="Activar / silenciar sonido">
+            <i class="bi bi-volume-mute-fill"></i>
+          </button>
+          <span class="gallery-caption">Remate Gui · Saladillo, Buenos Aires · Septiembre 2026</span>
+        </div>
+        <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1200&auto=format&fit=crop" alt="Evento rural"></div>
+        <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1508171840673-8964ea3f8d24?q=80&w=1200&auto=format&fit=crop" alt="Feria al aire libre"></div>
+        <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?q=80&w=1200&auto=format&fit=crop" alt="Exposición rural"></div>
+        <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1533105079780-92b9be482077?q=80&w=1200&auto=format&fit=crop" alt="Multitud en evento"></div>
+        <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1472653431158-6364773b2a56?q=80&w=1200&auto=format&fit=crop" alt="Carrera y evento deportivo"></div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EVENTOS DONDE YA ESTUVIMOS ============ -->
+<section id="eventos" class="section-py bg-light-soft">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up">
+      <p class="eyebrow"><i class="bi bi-geo"></i> Eventos donde ya estuvimos</p>
+      <h2 class="section-title">Presentes en los eventos más importantes de la zona.</h2>
+    </div>
+
+    <!-- TODO: reemplazar por casos reales con foto, nombre, lugar, fecha y descripción del evento -->
+    <div class="row g-4 mt-3">
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+        <div class="event-card">
+          <div class="event-photo" style="background-image:url('https://images.unsplash.com/photo-1560493676-04071c5f467b?q=80&w=800&auto=format&fit=crop')"></div>
+          <div class="event-body">
+            <span class="event-date">Noviembre 2025</span>
+            <h5>Exposición Rural de Saladillo</h5>
+            <p><i class="bi bi-geo-alt"></i> Sociedad Rural, Saladillo</p>
+            <p class="event-desc">Agua caliente ininterrumpida durante los tres días de exposición, para expositores y visitantes.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="120">
+        <div class="event-card">
+          <div class="event-photo" style="background-image:url('https://images.unsplash.com/photo-1517457373958-b7bdd4587205?q=80&w=800&auto=format&fit=crop')"></div>
+          <div class="event-body">
+            <span class="event-date">Marzo 2025</span>
+            <h5>Remate Feria Anual</h5>
+            <p><i class="bi bi-geo-alt"></i> Zona rural, Saladillo</p>
+            <p class="event-desc">Cobertura completa para compradores y consignatarios durante toda la jornada de remate.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="240">
+        <div class="event-card">
+          <div class="event-photo" style="background-image:url('https://images.unsplash.com/photo-1508171840673-8964ea3f8d24?q=80&w=800&auto=format&fit=crop')"></div>
+          <div class="event-body">
+            <span class="event-date">Enero 2025</span>
+            <h5>Fiesta Popular Tradicionalista</h5>
+            <p><i class="bi bi-geo-alt"></i> Predio municipal, Saladillo</p>
+            <p class="event-desc">Servicio continuo durante todo el festival, con operador propio durante las dos jornadas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DISPONIBILIDAD ============ -->
+<section id="disponibilidad" class="section-py bg-cream">
+  <div class="container">
+    <div class="row align-items-start g-5">
+      <div class="col-lg-5" data-aos="fade-right">
+        <p class="eyebrow"><i class="bi bi-calendar-heart"></i> Disponibilidad</p>
+        <h2 class="section-title">¿Qué fechas tenemos libres?</h2>
+        <p class="section-lead">Mirá el calendario y elegí una fecha disponible. Te escribimos por WhatsApp para confirmar los detalles de tu evento.</p>
+        <div class="calendar-legend">
+          <span><i class="dot dot-available"></i> Disponible</span>
+          <span><i class="dot dot-booked"></i> Reservada</span>
+          <span><i class="dot dot-today"></i> Hoy</span>
+        </div>
+      </div>
+      <div class="col-lg-7" data-aos="fade-left">
+        <div class="calendar-card">
+          <div class="calendar-header">
+            <button type="button" class="calendar-nav" id="calPrev" aria-label="Mes anterior"><i class="bi bi-chevron-left"></i></button>
+            <span class="calendar-month" id="calMonthLabel">Julio 2026</span>
+            <button type="button" class="calendar-nav" id="calNext" aria-label="Mes siguiente"><i class="bi bi-chevron-right"></i></button>
+          </div>
+          <div class="calendar-weekdays">
+            <span>L</span><span>M</span><span>M</span><span>J</span><span>V</span><span>S</span><span>D</span>
+          </div>
+          <div class="calendar-grid" id="calGrid"></div>
+          <p class="calendar-note" id="calSelectedNote">Tocá una fecha disponible para consultar por ella.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ESTADÍSTICAS ============ -->
+<section id="stats" class="section-py stats-section">
+  <div class="container">
+    <div class="row g-4 text-center">
+      <div class="col-6 col-lg-3" data-aos="fade-up">
+        <div class="stat-box">
+          <span class="stat-number" data-count="200">0</span><span class="stat-plus">L+</span>
+          <p>disponibles por evento</p>
+        </div>
+      </div>
+      <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="80">
+        <div class="stat-box">
+          <span class="stat-number" data-count="100">0</span><span class="stat-plus">%</span>
+          <p>instalación incluida</p>
+        </div>
+      </div>
+      <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="160">
+        <div class="stat-box">
+          <span class="stat-number-text">24x7</span>
+          <p>atención durante el evento</p>
+        </div>
+      </div>
+      <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="240">
+        <div class="stat-box">
+          <span class="stat-number-text"><i class="bi bi-router"></i></span>
+          <p>Starlink propio</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIOS ============ -->
+<section id="testimonios" class="section-py bg-light-soft">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up">
+      <p class="eyebrow"><i class="bi bi-chat-quote"></i> Testimonios</p>
+      <h2 class="section-title">Organizadores que ya confiaron en nosotros.</h2>
+    </div>
+
+    <!-- TODO: reemplazar por testimonios reales de clientes de Mate24x7 -->
+    <div class="swiper testimonial-swiper mt-4" data-aos="fade-up">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="testimonial-card">
+            <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            <p>"Nos olvidamos completamente del agua caliente. Llegaron, instalaron y durante las tres jornadas del remate no faltó nunca."</p>
+            <div class="testimonial-author">
+              <strong>Organizador de remate</strong>
+              <span>Sociedad Rural de Saladillo</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-card">
+            <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            <p>"El operador estuvo todo el día pendiente de los bidones. Un servicio realmente profesional que le sumó mucho a nuestro evento."</p>
+            <div class="testimonial-author">
+              <strong>Coordinadora de eventos</strong>
+              <span>Municipalidad de Saladillo</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-card">
+            <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            <p>"Contratamos Mate24x7 para nuestra fiesta popular y fue una de las mejores decisiones. Cero quejas, todo el mundo con su mate."</p>
+            <div class="testimonial-author">
+              <strong>Comisión organizadora</strong>
+              <span>Fiesta Tradicionalista</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section id="faq" class="section-py bg-cream">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-4" data-aos="fade-right">
+        <p class="eyebrow"><i class="bi bi-question-circle"></i> Preguntas frecuentes</p>
+        <h2 class="section-title">Todo lo que necesitás saber.</h2>
+        <p class="section-lead">¿No encontrás tu respuesta? Escribinos directamente por WhatsApp.</p>
+        <a href="https://wa.me/542344438234" target="_blank" class="btn btn-mate-outline mt-2">
+          <i class="bi bi-whatsapp me-1"></i> Consultar por WhatsApp
+        </a>
+      </div>
+      <div class="col-lg-8" data-aos="fade-left">
+        <div class="accordion mate-accordion" id="faqAccordion">
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                ¿Con cuánta anticipación tengo que reservar?
+              </button>
+            </h3>
+            <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">Recomendamos coordinar con al menos 15 días de anticipación para asegurar la fecha, aunque en muchos casos podemos resolver pedidos con menos tiempo. Escribinos y lo vemos.</div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                ¿El servicio incluye el traslado de la máquina?
+              </button>
+            </h3>
+            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">Sí, el transporte está incluido siempre que el evento sea en Saladillo. Para otras localidades, consultanos y te cotizamos el traslado.</div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                ¿Necesito tener wifi en el lugar del evento?
+              </button>
+            </h3>
+            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">No. Contamos con nuestra propia antena Starlink, así que no dependemos de la conexión del predio para operar la máquina.</div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                ¿Qué pasa si se termina el agua durante el evento?
+              </button>
+            </h3>
+            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">Nuestro operador está presente durante todo el evento vigilando el nivel de los bidones, y los va reponiendo antes de que se agoten.</div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                ¿Para qué tamaño de evento sirve el servicio?
+              </button>
+            </h3>
+            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">Desde reuniones de 50 personas hasta grandes exposiciones rurales o remates de varios días. Mirá el calendario de disponibilidad o escribinos y te asesoramos según tu evento.</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA GIGANTE ============ -->
+<section id="reservar" class="cta-section">
+  <div class="cta-glow"></div>
+  <div class="container text-center" data-aos="zoom-in">
+    <p class="eyebrow eyebrow-light justify-content-center"><i class="bi bi-calendar-check"></i> Reservá tu fecha</p>
+    <h2 class="cta-title">¿Organizando un evento?</h2>
+    <p class="cta-sub">Reservá la fecha ahora y asegurate de que nadie se quede sin agua caliente.</p>
+    <a href="https://wa.me/542344438234?text=Hola!%20Quiero%20reservar%20una%20fecha%20para%20mi%20evento" target="_blank" class="btn btn-mate-primary btn-giant">
+      <i class="bi bi-whatsapp me-2"></i> Reservar por WhatsApp
+    </a>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="mate-footer">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <img src="assets/img/logo.png" alt="Mate24x7" height="26" class="mb-3">
+        <p class="footer-text">Agua caliente ilimitada para eventos, remates, ferias y exposiciones rurales en Saladillo y la zona.</p>
+        <div class="live-badge live-badge-footer">
+          <span class="live-dot"></span>
+          <span>Disponible 24x7</span>
+        </div>
+      </div>
+      <div class="col-lg-2 col-6">
+        <h6>Navegación</h6>
+        <ul class="footer-links">
+          <li><a href="#por-que">Por qué elegirnos</a></li>
+          <li><a href="#incluye">Qué incluye</a></li>
+          <li><a href="#disponibilidad">Disponibilidad</a></li>
+          <li><a href="#faq">Preguntas</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-6">
+        <h6>Contacto</h6>
+        <ul class="footer-links">
+          <li><a href="https://wa.me/542344438234" target="_blank"><i class="bi bi-whatsapp"></i> 2344 438234</a></li>
+          <li><a href="mailto:mate24x7@gmail.com"><i class="bi bi-envelope"></i> mate24x7@gmail.com</a></li>
+          <li><i class="bi bi-geo-alt"></i> Saladillo, Buenos Aires</li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <h6>Seguinos</h6>
+        <div class="d-flex gap-3 footer-social">
+          <a href="https://instagram.com/mate24x7oficial" target="_blank"><i class="bi bi-instagram"></i></a>
+          <a href="https://wa.me/542344438234" target="_blank"><i class="bi bi-whatsapp"></i></a>
+          <a href="mailto:mate24x7@gmail.com"><i class="bi bi-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+      <span class="footer-copy">© <span id="year"></span> Mate24x7. Todos los derechos reservados.</span>
+      <span class="footer-copy">Saladillo, Buenos Aires, Argentina</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp button -->
+<a href="https://wa.me/542344438234" target="_blank" class="wa-float" aria-label="Escribinos por WhatsApp">
+  <i class="bi bi-whatsapp"></i>
+</a>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
